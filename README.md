@@ -1,20 +1,20 @@
 # NodeJs boilerplate
 
-## To run
+## Run
 
-### `npm install`
-### `npm start`
+**npm install** <br/>
+**npm start**
 
-## To Build
+## Build
 
-### `npm run build`
+**npm run build**
 
-## To Test
+## Test
 
-### `npm run test`
-### `npm run test:coverage`
+**npm run test**<br/>
+**npm run test:coverage**
 
-## To Code Fixing
+## Code Fixing
 
-### `npm run prettier`
-### `npm run lint`
+**npm run prettier**<br/>
+**npm run lint**
