@@ -2,19 +2,27 @@
 
 ## Run
 
-**npm install** <br/>
-**npm start**
+```base
+npm install
+npm start
+```
 
 ## Build
 
-**npm run build**
+```base
+npm run build
+```
 
 ## Test
 
-**npm run test**<br/>
-**npm run test:coverage**
+```base
+npm run test
+npm run test:coverage
+```
 
 ## Code Fixing
 
-**npm run prettier**<br/>
-**npm run lint**
+```base
+npm run prettier
+npm run lint
+```
