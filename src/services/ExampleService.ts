@@ -1,4 +1,4 @@
-import { camelize } from "../util";
+import { camelize } from "../utils/common";
 
 export class ExampleService {
 

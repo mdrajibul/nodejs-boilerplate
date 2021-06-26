@@ -1,0 +1,45 @@
+{
+  "definitions": {},
+  "info": {
+    "title": "@mdrajibul/nodejs-boilerplate",
+    "version": "1.0.0",
+    "license": {
+      "name": "ISC"
+    },
+    "description": "Specification JSONs: [v2](/api-spec/v2), [v3](/api-spec/v3).\n\nNodeJs, ExpressJs, webpack boilerplate"
+  },
+  "paths": {
+    "/api/example": {
+      "get": {
+        "summary": "/api/example",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "304": {}
+        },
+        "tags": []
+      }
+    },
+    "/api/example/{name}": {
+      "get": {
+        "summary": "/api/example/{name}",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true
+          }
+        ],
+        "responses": {},
+        "tags": []
+      }
+    }
+  },
+  "swagger": "2.0",
+  "tags": []
+}

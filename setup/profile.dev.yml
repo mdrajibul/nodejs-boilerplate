@@ -1,0 +1,4 @@
+port: 3001
+host: http://localhost
+openBrowser: true
+cacheExpiryTime: 72 # 3 days
